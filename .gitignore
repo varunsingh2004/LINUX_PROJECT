@@ -1,0 +1,36 @@
+# Build artifacts
+firewall
+obj/
+*.o
+*.a
+
+# Configuration files (user-specific)
+/etc/personal-firewall/
+# Don't ignore example config files in examples/ or config/ directories
+
+# Logs
+*.log
+/var/log/personal-firewall.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*
+
+# Compilation
+*.dSYM/
+core
+
